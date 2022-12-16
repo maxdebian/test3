@@ -1148,4 +1148,9 @@ textarea{
 #tableEdit{
     font-size: 20px;
     border: 1px solid black;
+}    
+#titleNew{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
 }
