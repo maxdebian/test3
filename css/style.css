@@ -6,7 +6,7 @@
 /* 62.5% equivalent 10 pixel */
 html{
     font-size: 62.5%;
-    background-color: #020F29;
+    background-color: red;
 }
 body{
     width: 100%;   
@@ -1145,3 +1145,7 @@ textarea{
     }
 }
 
+#tableEdit{
+    font-size: 20px;
+    border: 1px solid black;
+}
