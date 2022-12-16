@@ -4,13 +4,340 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mundial 2022</title>
+    <link rel="shortcut icon" href="./img/favicon.webp" />
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/function.js"></script>
+    <script src="https://kit.fontawesome.com/023b71d13f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Title</h1>
+    <header>
+        <nav class="nav-flexbox">
+            <img src="./img/logo.jpg" alt="" class="nav-img">
+            <div class="nav-search">
+                <label for="">Buscar</label>
+                <input type="search" name="" id="">
+            </div>
+            <ul class="nav-ul">
+                <li><a href="./index.html">Inicio</a></li>
+               <!--  <li><a href="">Contenidos</a> 
+                    <ul>
+                        <li><a href="./Rcontenido/richard.html">Richard</a></li>
+                    </ul>
+                </li> -->
+                <li><a href="./quienes_somos.html">¿Quien somos?</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="rowHeader">
+            <div class="rowHours">
+                <div class="argentina">
+                    <p>ARGENTINA</p>
+                    <p><span id="hoursAr"></span>:<span id="minutesAr"></span>:<span id="secondsAr"></span> - <span id="typeTimeAr"></span></p>
+                    <br>
+                    <p>QATAR</p>
+                    <p><span id="hoursCa"></span>:<span id="minutesCa"></span>:<span id="secondsCa"></span> - <span id="typeTimeCa"></span></p>
+                </div>
+            </div>
+            <div class="rowWeather">
+
+                <div class="argentina">
+                   <p>ARGENTINA</p>
+                    <div class="temperture">
+                        <span id="locationDescription"></span>
+                        <img src="" id="locationIconAnimated" alt="" class="locationIconAnimated">
+                    </div>
+                    <div class="location">
+                        <span id="tempertureValue"></span>
+                        <span id="tempertureDescription"></span>
+                    </div>
+                    <div class="speedTime">
+                        <span class="speedTimeTitle">Vel. Viento</span>
+                        <span id="speedTimeDescription"></span>
+                    </div>
+                </div>
+                <div class="catar">
+                   <p>QATAR</p>
+                    <div class="tempertureCatar">
+                        <span id="locationDescriptionCatar"></span>
+                        <img src="" id="locationIconAnimatedCatar" alt="" class="locationIconAnimated">
+                    </div>
+                    <div class="locationCatar">
+                        <span id="tempertureValueCatar"></span>
+                        <span id="tempertureDescriptionCatar"></span>
+                    </div>
+                    <div class="speedTime">
+                        <span class="speedTimeTitle">Vel. Viento</span>
+                        <span id="speedTimeDescriptionCatar"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section-carousel">
+            <div class="carousel">
+                <div id="imagen"></div>
+            </div>
+            <div class="controles">
+            </div>
+        </section>
+        <section class="section-division"></section>
+        <section class="section-container">
+            <div class="card">
+                <a href="./contenidos/mundiaMexico86.html">
+                    <img src="./img/maradonaMundial.jpg" alt="">
+                    <h4>México 86</h4>
+                    <p>El Mundial de México 1986 quedó en la memoria por muchas razones: fue el primero, y hasta la fecha el último, que la Selección Argentina ganó fuera de casa; el que marcó la eliminación histórica a Inglaterra, el que catapultó a Diego Armando Maradona como el mejor del mundo, el del mejor gol del siglo.</p>
+                </a>
+            </div>
+       
+            <div class="card">
+                <a href="./contenidos/mundialSudafricaMaradonayMessi.html">
+                    <img src="./img/messiYMaradona.jpg" alt="">
+                    <h4>Mundial de Sudáfrica a Maradona y Messi</h4>
+                    <p>El Mundial de Sudáfrica 2010 es recordado por los argentinos como una competencia en la que había mucha ilusión por tener a Diego Armando Maradona en el banco como DT y a Lionel Messi en el campo de juego.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="./contenidos/mundial78.html">
+                    <img src="./img/mundial78.jpg" alt="">
+                    <h4>Mundial de la FIFA Argentina 1978</h4>
+                    <p>Fue la primera vez que la Selección se consagró como campeona del mundo. La dictadura y la Copa del Mundo. Las quejas de Daniel Passarella y César Luis Menotti por el yeso de Van de Kerkhof. La palabra de Daniel Bertoni para Página|12.</p>
+                </a>
+            </div>
+       
+         
+        </section>
+        <section class="section-division"></section>
+        <section class="section-flexbox-two">
+            <span class="section-flexbox-two-title">Mundiales Argentinos</span>
+            <div class="section-flexbox-two-content">
+                <div>
+                    <img src="./img/maradonaMundial.jpg" alt="" class="section-flexbox-two-image">
+                    <p>Maradona</p> 
+                </div>
+                <div>
+                    <img src="./img/mundial78_1.jpg" alt="" class="section-flexbox-two-image">
+                    <p>Menotti</p>
+                </div>
+            </div>
+        </section> 
+        
+        <section class="section-division">
+            <img src="./img/logo_animation.jpg" class="progress" alt="">
+        </section>
+        <section class="section-container-zoom">
+            <a href="./contenidos/messi.html">
+                <figure>
+                    <img src="./img/messi_1.jpg" alt="">
+                    <p class="section-container-zoom-title">Lionel Andrés Messi Cuccittini, conocido como Leo Messi, es un futbolista argentino que juega como delantero o centrocampista. Jugador histórico del Fútbol Club Barcelona.</p>
+                </figure>
+            </a> 
+            <br media="480">
+            <br media="480">
+            <a href="./contenidos/cristianoRonaldo.html">
+                <figure>
+                    <img src="./img/cristianoRonaldo.jpg" alt="">
+                    <p class="section-container-zoom-title">Cristiano Ronaldo dos Santos Aveiro (pronunciación en portugués: /kɾiʃˈtiɐnu ʁuˈnaɫdu/; Funchal, Madeira; 5 de febrero de 1985), conocido como Cristiano Ronaldo, es un futbolista portugués que juega como delantero o extremo.</p>
+                </figure>
+            </a>
+            <br media="480">
+            <br media="480">
+            <a href="./contenidos/neymar.html">
+                <figure>
+                    <img src="./img/neymar.jpg" alt="">
+                    <p class="section-container-zoom-title">Neymar da Silva Santos Júnior (pronunciación en portugués: /nejˈmaʁ dɐ ˈsiwvɐ ˈsɐ̃tus ˈʒũɲoʁ/; Mogi das Cruzes, São Paulo; 5 de febrero de 1992), conocido como Neymar Júnior o simplemente Neymar.</p>
+                </figure>
+            </a>
+        </section>
+        <section class="section-division">
+            <img src="./img/logo_animation.jpg" class="progress" alt="">
+        </section>
+        <section class="section-container-stadium-zoom">
+            <figure>
+                <img src="./img/mestadio_1.jpg" alt="">
+                <div class="section-container-zoom-stadium-title">
+                    <p>Estadio Ras Abu</p>
+                </div>
+            </figure>
+            <figure>
+                <img src="./img/mestadio_2.jpg" alt="">
+                <div class="section-container-zoom-stadium-title">
+                    <p>Estadio Al Bayt</p>
+                </div>
+            </figure>
+            <figure>
+                <img src="./img/mestadio_3.jpg" alt="">
+                <div class="section-container-zoom-stadium-title">
+                    <p>Estadio Iribarren</p>
+                </div>
+            </figure>
+        </section>
+        <section class="section-division">
+            <img src="./img/logo_animation.jpg" class="progress" alt="">
+        </section>
+        <section class="section-video-maps">
+            <iframe src="https://player.vimeo.com/video/751489603?h=e99fed04d0&autoplay=0&background=0&loop=1&playsinline=1&quality=540p&title=0" width="440" height="440" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1555012.8192022538!2d50.212157114042085!3d25.1430650195973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c534ffdce87f%3A0x1cfa88cf812b4032!2sCatar!5e0!3m2!1ses!2sar!4v1665274007309!5m2!1ses!2sar" width="440" height="440" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section class="section-division">
+            <img src="./img/logo_animation.jpg" class="progress" alt="">
+        </section>
+        <section class="grid_container">
+            <div>
+            <a href="gcontenido/alojamiento.html">
+                 <img class="imagen_cont"  src="img/alojamiento.JPG " title="Alojamientos" > 
+                </a>
+                <h2>Alojamientos</h2>
+            <button class="button-cont" onclick="location.href='Gcontenido/alojamiento.html'" type="button" >
+                    
+                 ver más</button>
+              
+            </div>
+            <div>
+                 
+                <a href="Gcontenido/tickets.html" >
+                <img  class="imagen_cont" src="img/gestadio1.jpg"   title="Tickets" >
+                
+            </a>
+             <h2>Tickets</h2>
+             <button class="button-cont" onclick="location.href='Gcontenido/tickets.html'" type="button" >
+                    
+                ver más</button>
+        </div>  
+    
+            <div>
+                <a href="Gcontenido/excursiones.html">
+                    <img  class="imagen_cont" src="img/excursiones.webp"  title="Excursiones" > 
+                </a>
+                <h2>Excursiones</h2>
+                <button class="button-cont" onclick="location.href='Gcontenido/excursiones.html'" type="button" >
+                    
+                    ver más</button>
+                 
+               </div>
+ 
+
+            <div>
+                
+                <a href="Gcontenido/vuelos.html">
+                    <img  class="imagen_cont"  src="img/Vuelos1.jpeg"  title="Pasajes Áreos"  >
+                </a>
+                <h2>Pasajes Aéreos</h2>
+                <button class="button-cont" onclick="location.href='Gcontenido/vuelos.html'" type="button" >
+                    
+                    ver más</button>
+            </div>  
+            <div>
+                <a href="gcontenido/paquetes.html">
+                    <img  class="imagen_cont"  src="img/paquetes.jpg"  title="Paquetes"  >
+                </a>
+                <h2>Paquetes</h2>
+                <button class="button-cont" onclick="location.href='gcontenido/paquetes.html'" type="button" >
+                    
+                    ver más</button>
+            </div>  
+        
+            <div>
+                <a href="Gcontenido/fanfest.html">
+                    <img  class="imagen_cont"   src="img/fanFEst.jpg"  title="Ingreso al Fan Fest" >
+                </a>
+                <h2>Ingreso al Fan Fest</h2>
+                <button class="button-cont" onclick="location.href='Gcontenido/fanfest.html'" type="button" >
+                    
+                    ver más</button>
+            </div>  
+            <div>
+            </div>
+
+        </section>
+
+        <section class="section-division">
+            <img src="./img/logo_animation.jpg" class="progress" alt="">
+        </section>
+
+        <section class="flex">
+
+            <!--  <div class="flex-containe">
+                 <div class="favicom"> <img src="./../img/favicon.webp" alt="logo-copa"></div>
+             </div> -->
+             <div class="flex-containe">
+                 <img src="./../img/mesi corriendo.webp" alt="messi" class="messi">
+             </div>
+ 
+             <section class="flex-containe1">
+             
+                 <div class="texto"> 
+                     <h1 style="font-size:28px;">La'ebb, la mascota del Mundial:<span>¿qué significa?</span></h1>
+                     <p style="font-size: 25px;"  > La'eeb, el nombre que lleva la mascota, significa jugador habilidoso en idioma árabe. “Llegó del universo de las mascotas lleno de energía y está listo para llevar la alegría del fútbol a todo el mundo. 
+                        La'eeb anima a todos a creer en sí mismos. Ha llegado el momento de repartir la alegría del fútbol por el mundo entero”, escribió la FIFA en sus redes sociales para darle la bienvenida al turbante volador.</p>
+                 </div>
+                 <div class="img-fantasmita">    
+                     <img class="borde" src="./../img/fantasmita.jpg" alt="mascota">
+                 </div>
+                
+             </section>
+             
+             <div class="flex-containe2">
+             
+                 <div class="img-ficturi">
+                     <div>
+                         <h1  id="texto1">Ficturi de la Copa Mundial</h1>
+                     </div>
+                     
+                     <div>
+                         <img class="borde1" src="./../img/ficturi.jpg" alt="fictuti de la copa">
+                     </div>
+                     <video class="videoFuturista" src="./../img/FUTURISTAS - Los estadios de Qatar 2022 por dentro - Copa del Mundo FIFA - Sedes confirmadas Mundial.mp4" autoplay muted loop></video>
+                 </div>
+ 
+             </div>
+             
+             <div class="texto2">
+                 <h1> ** Así Serán Los Estadios Del Mundial 2022 **</h1>
+             </div>
+     
+             <div class="grid-containe3">
+ 
+                 <div class="estadio"><img src="./../img/estadio.jpg" alt="estadio" class="img-estadio"></div>
+ 
+                 <div class="estadio"><img src="./../img/estadio1.jpg" alt="estadio1" class="img-estadio"></div>
+ 
+                 <div class="estadio"><img src="./../img/estadio2.jpg" alt="estadio2" class="img-estadio"></div>
+ 
+                 <div class="estadio"><img src="./../img/estadio3.jpg" alt="estadio3" class="img-estadio"></div>
+ 
+                 <div class="estadio"><img src="./../img/estadio4.jpg" alt="estadio4" class="img-estadio"></div>
+ 
+                 <div class="estadio"><img src="./../img/estadio5.jpg" alt="estadio5" class="img-estadio"></div>
+ 
+                 <div class="estadio"><img src="./../img/estadio6.jpg" alt="estadio6" class="img-estadio"></div>
+ 
+                 <div class="estadio"><img src="./../img/estadio7.jpg" alt="estadio7" class="img-estadio"></div>
+                     
+             </div>  
+         </section>
+
+        <section class="section-division"></section>
+    </main>
+    
+    
+    <footer>
+        <section class="section-footer">
+            <div class="alineado">
+                <a href="https://www.whatsapp.com/?lang=es" target="_blank"><img src="./../img/logo_whatsapp_icon_32.png" alt="whatsapp" class="whatsapp"></a>
+                <a href="https://m.facebook.com/?locale=es_ES&_rdr" target="_blank"><img src="./../img/f_facebook_logo_logos_icon_32.png" alt="facebook" class="facebook"></a>
+                <a href="https://twitter.com/?lang=es" target="_blank"><img src="./../img/logo_twitter_icon_32.png" alt="twitter" class="twitter"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="./../img/instagram_logo_logos_icon_32.png" alt="instagram" class="instagram"></a>
+                <a href="https://accounts.google.com/v3/signin/identifier?dsh=S1242423375%3A1661614951595781&continue=https%3A%2F%2Faccounts.google.com%2FEditPasswd%3Fhl%3Des&followup=https%3A%2F%2Faccounts.google.com%2FEditPasswd%3Fhl%3Des&hl=es&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AQN2RmUgl66BN0EYewm3PTI3Lzdvt6MFZDiZ-Y7zXcnmYLyX2UI2m-8M2LnXJg7vG7rJw71DfD_QYg" target="_blank"><img src="./../img/gmail_logo_logos_icon_32.png" alt="gmail" class="gmail"></a>
+                <a href="https://web.telegram.org/?legacy=1#/login"target="_blank"><img src="./../img/logo_telegram_icon_32.png" alt="telegrtam" class="telegrtam"></a>  
+            </div>
+            
+            <div class="logito" ><img src="./../img/fifalogo.png" alt=""></div>
+                                                                       
+            <div class="viaje">Es tu momento de viajar</div>
+        </section>
+    </footer>
 </body>
-
-
-
-
 </html>
