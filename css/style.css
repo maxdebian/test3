@@ -1144,4 +1144,8 @@ textarea{
         height: 27vh;
     }
 }
-
+#titleNew{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
