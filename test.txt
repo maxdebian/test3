@@ -1,3 +1,0 @@
-Credenciales 
-correo: micorreo@gmail.com
-contraseña: 1234567
